@@ -102,7 +102,7 @@ html, body {
   
   .search-container {
     text-align: center;
-    margin-top: -60px;
+    margin-top: 0px;
   }
   
   /*Input Search Box Code*/
@@ -129,6 +129,13 @@ html, body {
   /* END SEARCH BAR CODE */
 
   /* MENU CODE */
+
+  .flex-menu {
+    display: flex;
+    margin-left: 1190px;
+    margin-top: -40px;
+  }
+
   #mymenu {
     width: 0;
   }
