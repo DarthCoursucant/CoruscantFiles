@@ -12,6 +12,20 @@
 <body>
     <!--HEADER CODE-->
     <header class="page-header">
+        <div class="header-left">
+            <div class="logo-container">
+                <a href="../media/logo.main.jpg">
+            </div>
+        </div>
+        <div class="middle-header">
+            <div class="search-container"> <!--Search Bar-->
+                <input type="text" id="searchInput" placeholder ="Search.......">
+                <button onclick ="search()">Search</buttom>
+            </div>
+            <div id="searchResults">
+                <script src="../js/main-script.js"></script>
+            </div>
+        </div>
         <div class="flex-menu">
             <!--Menu Code-->
             <div id="mymenu" class="menubar">
@@ -57,29 +71,13 @@
                 <a href="../planets/city-planets.html">City Planets</a>
                 <a href="../planets/ocean-planets.html">Ocean Planets</a>
                 <a href="../planets/volcanic-planets.html">Volcanic Planets</a>
+                <br>
             </div>
             <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> <!--Menu Code-->
         </div>
-        <div class="header-left">
-            <div class="logo-container">
-                <a href="index.html"><p><b>GameHub</b><br>By Gamers For Gamers</p></a>
-            </div>
-        </div>
-        <div class="middle-header">
-            <div class="search-container"> <!--Search Bar-->
-                <input type="text" id="searchInput" placeholder ="Search.......">
-                <button onclick ="search()">Search</buttom>
-            </div>
-            <div id="searchResults">
-                <script src="./js/script.js"></script>
-            </div>
-        </div>
         <div class="icons-header"> <!--Icons In The Header-->
-            <a href="./infomorations/login.html">
-                <img src="./icons/login.png" alt="Log Into Account Icon To Log Into Your Game Hub Account">
-            </a>
-            <a href="./infomorations/shopping-cart.html">
-                <img src="./icons/shopping cart.png" alt="Shopping Cart Icon To Access Your Cart On GameHub">
+            <a href="./account.html">
+                <img src="../icons/login.png" alt="Log Into Account Icon To Log Into Your Coruscant Files Account">
             </a>
         </div>
     </header>
