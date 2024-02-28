@@ -173,4 +173,15 @@ html, body {
     margin-left: 50px;
   }
 
+  #first-column, #second-column, #third-column, #fourth-column, #normall {
+    display: flex; 
+    font-size: 12px;
+    margin-left: 10px;
+   }
+   
+   #first-column a, #second-column a, #third-column a, #fourth-column a, #normall a {
+     font-size: 15px;
+     line-height: 15px;
+   }
+
 /*  END MENU CODE */
