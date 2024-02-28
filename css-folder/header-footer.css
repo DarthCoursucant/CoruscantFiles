@@ -175,13 +175,20 @@ html, body {
 
   #first-column, #second-column, #third-column, #fourth-column, #normall {
     display: flex; 
-    font-size: 12px;
-    margin-left: 10px;
+    margin-left: -10px;
+    width: 100px;
+    height: 100px;
+   }
+
+   #title-menu {
+    text-align: center;
+    font-size: 13px;
    }
    
    #first-column a, #second-column a, #third-column a, #fourth-column a, #normall a {
      font-size: 15px;
      line-height: 15px;
+     text-align: center;
    }
 
 /*  END MENU CODE */
